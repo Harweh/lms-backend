@@ -1,12 +1,24 @@
 {
   "name": "lms-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Learning Management System Backend",
+  "main": "server.js",
   "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "lms",
+    "education",
+    "backend",
+    "nodejs",
+    "express",
+    "mongoose",
+    "typescript"
+  ],
+  
   "author": "",
   "license": "ISC",
   "type": "commonjs",
